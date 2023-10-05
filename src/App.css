@@ -1,0 +1,25 @@
+.Weather {
+    outline: 4px;
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1em;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 255, 255, 0.335);
+    text-align: center;
+}
+
+.Weather__description__list{
+    display: flex;    
+}
+
+
